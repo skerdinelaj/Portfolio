@@ -14,7 +14,7 @@ document.getElementById('github').addEventListener('click', function() {
 })
 
 document.getElementById('react-mentoring-live').addEventListener('click', function() {
-    window.open('https://react-mentoring.netlify.app', '_blank');
+    window.open('https://skerdinelaj.github.io/react-mentoring-fishish-project/', '_blank');
 });
 
 document.getElementById('react-mentoring-github').addEventListener('click', function() {
@@ -26,10 +26,10 @@ document.getElementById('online-shop-github').addEventListener('click', function
 });
 
 document.getElementById('online-shop-live').addEventListener('click', function() {
-    window.open('https://fancy-online-shop.netlify.app/', '_blank');
+    window.open('https://skerdinelaj.github.io/online-shop/', '_blank');
 });
 document.getElementById('music-playlist-live').addEventListener('click', function() {
-    window.open('https://skerdi-music-playlist.netlify.app/', '_blank');
+    window.open('https://skerdinelaj.github.io/music-palylist/', '_blank');
 });
 document.getElementById('music-playlist-github').addEventListener('click', function() {
     window.open('https://github.com/skerdinelaj/music-palylist', '_blank');
