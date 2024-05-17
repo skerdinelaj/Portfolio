@@ -4,3 +4,33 @@ const toggleMenu = () => {
     menu.classList.toggle('open');
     icon.classList.toggle('open');
 }
+
+document.getElementById('linkedin').addEventListener('click', function() {
+    window.open('https://www.linkedin.com/in/skerdi-nelaj-289b651b7/', '_blank');
+});
+
+document.getElementById('github').addEventListener('click', function() {
+    window.open('https://github.com/skerdinelaj', '_blank');
+})
+
+document.getElementById('react-mentoring-live').addEventListener('click', function() {
+    window.open('https://react-mentoring.netlify.app', '_blank');
+});
+
+document.getElementById('react-mentoring-github').addEventListener('click', function() {
+    window.open('https://github.com/skerdinelaj/react-entoring-fishish-project', '_blank');
+});
+
+document.getElementById('online-shop-github').addEventListener('click', function() {
+    window.open('https://github.com/skerdinelaj/online-shop/', '_blank');
+});
+
+document.getElementById('online-shop-live').addEventListener('click', function() {
+    window.open('https://fancy-online-shop.netlify.app/', '_blank');
+});
+document.getElementById('music-playlist-live').addEventListener('click', function() {
+    window.open('https://skerdi-music-playlist.netlify.app/', '_blank');
+});
+document.getElementById('music-playlist-github').addEventListener('click', function() {
+    window.open('https://github.com/skerdinelaj/music-palylist', '_blank');
+});
