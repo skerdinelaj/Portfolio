@@ -14,7 +14,7 @@ document.getElementById('github').addEventListener('click', function() {
 })
 
 document.getElementById('react-mentoring-live').addEventListener('click', function() {
-    window.open('https://skerdinelaj.github.io/react-mentoring-fishish-project/', '_blank');
+    window.open('https://skerdinelaj.github.io/react-mentoring-finish-project/', '_blank');
 });
 
 document.getElementById('react-mentoring-github').addEventListener('click', function() {
