@@ -301,6 +301,61 @@ section {
 
 #experience {
     position: relative;
+    height: fit-content;
+    min-height: 96vh;
+    padding-bottom: 4rem;
+}
+
+#experience .about-containers {
+    align-items: flex-start;
+}
+
+.work-history-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: left;
+}
+
+.job {
+    padding-bottom: 1.5rem;
+    border-bottom: rgb(163 163 163) 0.1rem solid;
+}
+
+.job:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.job-header h3 {
+    font-size: 1.1rem;
+}
+
+.job-date {
+    font-size: 0.9rem;
+    color: rgb(85, 85, 85);
+    white-space: nowrap;
+}
+
+.job ul {
+    padding-left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.job li {
+    color: rgb(85, 85, 85);
+    line-height: 1.4;
 }
 
 .experience-subtitle {
