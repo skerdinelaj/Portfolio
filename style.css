@@ -340,6 +340,12 @@ section {
     font-size: 1.1rem;
 }
 
+.job-subtitle {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+}
+
 .job-date {
     font-size: 0.9rem;
     color: rgb(85, 85, 85);
